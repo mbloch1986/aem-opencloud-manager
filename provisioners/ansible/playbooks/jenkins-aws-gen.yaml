@@ -258,8 +258,12 @@
           - flush-dispatcher-cache
         operational_tasks_with_aem_profile_params:
           - install-aem-profile
+        operational_tasks_with_disable_saml_params:
+          - disable-saml
         operational_tasks_with_deploy_package_params:
           - deploy-artifact
+        operational_tasks_with_enable_saml_params:
+          - enable-saml
         operational_tasks_with_export_package_params:
           - export-package
         operational_tasks_with_import_package_params:
